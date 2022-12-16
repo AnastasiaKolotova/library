@@ -1,0 +1,451 @@
+{
+	"info": {
+		"_postman_id": "1077500d-7b47-4d73-a321-1137b9f04a8e",
+		"name": "library",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24537050"
+	},
+	"item": [
+		{
+			"name": "http://k-kolotova.xn--80ahdri7a.site/api/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "utka",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "utka@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "photo",
+							"type": "file",
+							"src": "/X:/vsyakoe/risiki/артхаус2.png"
+						},
+						{
+							"key": "password",
+							"value": "utka",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://k-kolotova.xn--80ahdri7a.site/api/register",
+					"protocol": "http",
+					"host": [
+						"k-kolotova",
+						"xn--80ahdri7a",
+						"site"
+					],
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://k-kolotova.xn--80ahdri7a.site/api/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"utka@mail.com\",\r\n    \"password\":\"utka\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://k-kolotova.xn--80ahdri7a.site/api/login",
+					"protocol": "http",
+					"host": [
+						"k-kolotova",
+						"xn--80ahdri7a",
+						"site"
+					],
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://k-kolotova.xn--80ahdri7a.site/api/profile",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "soxKa48z5DjyyNSPky5Abit_dXE5IlW5",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://k-kolotova.xn--80ahdri7a.site/api/profile",
+					"protocol": "http",
+					"host": [
+						"k-kolotova",
+						"xn--80ahdri7a",
+						"site"
+					],
+					"path": [
+						"api",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://k-kolotova.xn--80ahdri7a.site/api/profile/edit",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "dPr1p0Sfa1gz9RDMnH3KSlKWh-s66iUh",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "hfghgd",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "file@mail.com",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "photo",
+							"type": "file",
+							"src": "/X:/vsyakoe/risiki/шото.png"
+						},
+						{
+							"key": "password",
+							"value": "file",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://k-kolotova.xn--80ahdri7a.site/api/profile/edit",
+					"protocol": "http",
+					"host": [
+						"k-kolotova",
+						"xn--80ahdri7a",
+						"site"
+					],
+					"path": [
+						"api",
+						"profile",
+						"edit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://k-kolotova.xn--80ahdri7a.site/api/profile/delete",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"rumka@mail.com\",\r\n    \"password\": \"rumka\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://k-kolotova.xn--80ahdri7a.site/api/profile/delete",
+					"protocol": "http",
+					"host": [
+						"k-kolotova",
+						"xn--80ahdri7a",
+						"site"
+					],
+					"path": [
+						"api",
+						"profile",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://k-kolotova.xn--80ahdri7a.site/api/books/create",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "8mNva7-FdWRQSujSHEluisXF_D-1EDyB",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "b_name",
+							"value": "ituyk",
+							"type": "text"
+						},
+						{
+							"key": "genres",
+							"value": "романтика",
+							"type": "text"
+						},
+						{
+							"key": "b_photo",
+							"type": "file",
+							"src": "/X:/vsyakoe/risiki/обои.jpg",
+							"disabled": true
+						},
+						{
+							"key": "description",
+							"value": "kо воеводы Федор Басманов прибывает к царскому двору, чтоkа игры и выжить во всепоглощающем пламени жестокости и насилия. Сможет ли он сохранить свою душу или нет ей места в столь жутком мире царской воли?",
+							"type": "text"
+						},
+						{
+							"key": "author",
+							"value": "Дjtyжекk",
+							"type": "text"
+						},
+						{
+							"key": "publisher",
+							"value": "Like Bookkkk",
+							"type": "text"
+						},
+						{
+							"key": "publication_year",
+							"value": "2020",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://k-kolotova.xn--80ahdri7a.site/api/books/create",
+					"protocol": "http",
+					"host": [
+						"k-kolotova",
+						"xn--80ahdri7a",
+						"site"
+					],
+					"path": [
+						"api",
+						"books",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://k-kolotova.xn--80ahdri7a.site/api/books/all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://k-kolotova.xn--80ahdri7a.site/api/books/all",
+					"protocol": "http",
+					"host": [
+						"k-kolotova",
+						"xn--80ahdri7a",
+						"site"
+					],
+					"path": [
+						"api",
+						"books",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://k-kolotova.xn--80ahdri7a.site/api/books/edit/6",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "G0DEXhVIF5SRCDyVIklnExH8Rvqu4OjW",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "rating",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "read",
+							"value": "100",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "b_photo",
+							"type": "file",
+							"src": "/X:/vsyakoe/risiki/артхаус.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://k-kolotova.xn--80ahdri7a.site/api/books/edit/6",
+					"protocol": "http",
+					"host": [
+						"k-kolotova",
+						"xn--80ahdri7a",
+						"site"
+					],
+					"path": [
+						"api",
+						"books",
+						"edit",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://k-kolotova.xn--80ahdri7a.site/api/books/delete/4",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "yLWBjYvSWQvmfMd9OosIcJCBWnUOexie",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://k-kolotova.xn--80ahdri7a.site/api/books/delete/4",
+					"protocol": "http",
+					"host": [
+						"k-kolotova",
+						"xn--80ahdri7a",
+						"site"
+					],
+					"path": [
+						"api",
+						"books",
+						"delete",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://k-kolotova.xn--80ahdri7a.site/api/commentaries/create",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "rating",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "comment",
+							"value": "not bad",
+							"type": "text"
+						},
+						{
+							"key": "b_id",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://k-kolotova.xn--80ahdri7a.site/api/commentaries/create",
+					"protocol": "http",
+					"host": [
+						"k-kolotova",
+						"xn--80ahdri7a",
+						"site"
+					],
+					"path": [
+						"api",
+						"commentaries",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

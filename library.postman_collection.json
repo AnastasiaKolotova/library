@@ -16,22 +16,22 @@
 					"formdata": [
 						{
 							"key": "name",
-							"value": "utka",
+							"value": "goose",
 							"type": "text"
 						},
 						{
 							"key": "email",
-							"value": "utka@mail.com",
+							"value": "goose@mail.com",
 							"type": "text"
 						},
 						{
 							"key": "photo",
 							"type": "file",
-							"src": "/X:/vsyakoe/risiki/артхаус2.png"
+							"src": "/C:/Users/PC/Pictures/New Piskel (1).gif"
 						},
 						{
 							"key": "password",
-							"value": "utka",
+							"value": "goose",
 							"type": "text"
 						}
 					]
@@ -90,7 +90,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "soxKa48z5DjyyNSPky5Abit_dXE5IlW5",
+							"value": "du8V80h8L0UbNWYBMfPmE7ZTIKp6enKp",
 							"type": "string"
 						}
 					]
@@ -121,7 +121,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "dPr1p0Sfa1gz9RDMnH3KSlKWh-s66iUh",
+							"value": "du8V80h8L0UbNWYBMfPmE7ZTIKp6enKp",
 							"type": "string"
 						}
 					]
@@ -133,7 +133,7 @@
 					"formdata": [
 						{
 							"key": "name",
-							"value": "hfghgd",
+							"value": "newname",
 							"type": "text"
 						},
 						{
@@ -145,7 +145,7 @@
 						{
 							"key": "photo",
 							"type": "file",
-							"src": "/X:/vsyakoe/risiki/шото.png"
+							"src": "/C:/Users/PC/Pictures/logo.png"
 						},
 						{
 							"key": "password",
@@ -180,22 +180,13 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "",
+							"value": "udtyP9jYDPWDrpQHGU1gR",
 							"type": "string"
 						}
 					]
 				},
 				"method": "DELETE",
 				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"email\": \"rumka@mail.com\",\r\n    \"password\": \"rumka\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
 				"url": {
 					"raw": "http://k-kolotova.xn--80ahdri7a.site/api/profile/delete",
 					"protocol": "http",
@@ -221,7 +212,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "8mNva7-FdWRQSujSHEluisXF_D-1EDyB",
+							"value": "a8r5KrC2OelX__jNzXS3NKydaHs7by0W",
 							"type": "string"
 						}
 					]
@@ -233,19 +224,18 @@
 					"formdata": [
 						{
 							"key": "b_name",
-							"value": "ituyk",
+							"value": "uuuu",
 							"type": "text"
 						},
 						{
 							"key": "genres",
-							"value": "романтика",
+							"value": "fantasy",
 							"type": "text"
 						},
 						{
 							"key": "b_photo",
 							"type": "file",
-							"src": "/X:/vsyakoe/risiki/обои.jpg",
-							"disabled": true
+							"src": "/C:/Users/PC/Pictures/logo.png"
 						},
 						{
 							"key": "description",
@@ -316,7 +306,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "G0DEXhVIF5SRCDyVIklnExH8Rvqu4OjW",
+							"value": "dPr1p0Sfa1gz9RDMnH3KSlKWh-s66iUh",
 							"type": "string"
 						}
 					]
@@ -328,7 +318,7 @@
 					"formdata": [
 						{
 							"key": "rating",
-							"value": "3",
+							"value": "4",
 							"type": "text"
 						},
 						{
@@ -340,12 +330,13 @@
 						{
 							"key": "b_photo",
 							"type": "file",
-							"src": "/X:/vsyakoe/risiki/артхаус.png"
+							"src": "/C:/Users/PC/Pictures/New Piskel (1).gif",
+							"disabled": true
 						}
 					]
 				},
 				"url": {
-					"raw": "http://k-kolotova.xn--80ahdri7a.site/api/books/edit/6",
+					"raw": "http://k-kolotova.xn--80ahdri7a.site/api/books/edit/3",
 					"protocol": "http",
 					"host": [
 						"k-kolotova",
@@ -356,7 +347,7 @@
 						"api",
 						"books",
 						"edit",
-						"6"
+						"3"
 					]
 				}
 			},
@@ -370,7 +361,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "yLWBjYvSWQvmfMd9OosIcJCBWnUOexie",
+							"value": "dPr1p0Sfa1gz9RDMnH3KSlKWh-s66iUh",
 							"type": "string"
 						}
 					]
@@ -378,7 +369,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://k-kolotova.xn--80ahdri7a.site/api/books/delete/4",
+					"raw": "http://k-kolotova.xn--80ahdri7a.site/api/books/delete/22",
 					"protocol": "http",
 					"host": [
 						"k-kolotova",
@@ -389,7 +380,7 @@
 						"api",
 						"books",
 						"delete",
-						"4"
+						"22"
 					]
 				}
 			},
@@ -403,7 +394,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "",
+							"value": "dPr1p0Sfa1gz9RDMnH3KSlKWh-s66iUh",
 							"type": "string"
 						}
 					]
@@ -425,7 +416,7 @@
 						},
 						{
 							"key": "b_id",
-							"value": "3",
+							"value": "6",
 							"type": "text"
 						}
 					]
